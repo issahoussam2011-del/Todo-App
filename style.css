@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 html {
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   font-size: 16pt;
   color: var(--text-clor);
 }
@@ -111,17 +111,17 @@ form {
   transition: 0.2s ease;
   cursor: pointer;
 }
-input[type='checkbox']:checked ~ .custom-checkbox {
+input[type="checkbox"]:checked ~ .custom-checkbox {
   background-color: var(--accent-color);
 }
-input[type='checkbox']:checked ~ .custom-checkbox svg {
+input[type="checkbox"]:checked ~ .custom-checkbox svg {
   fill: var(--primary-color);
 }
-input[type='checkbox']:checked ~ .todo-text {
+input[type="checkbox"]:checked ~ .todo-text {
   text-decoration: line-through;
   color: var(--secondary-color);
 }
-input[type='checkbox'] {
+input[type="checkbox"] {
   display: none;
 }
 @media (max-width: 500px) {
